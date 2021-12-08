@@ -1,0 +1,39 @@
+.body {
+    display: flex;
+}
+
+.header {
+    display:flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
